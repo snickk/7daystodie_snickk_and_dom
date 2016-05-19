@@ -25,7 +25,7 @@
 
   <property name="ControlPanelEnabled"	 	value="false"/>				<!-- Enable/Disable the control panel -->
   <property name="ControlPanelPort" 		value="8080"/>				<!-- Port of the control panel webpage -->
-  <property name="ControlPanelPassword" 	value="meanis"/>			<!-- Password to gain entry to the control panel -->
+  <property name="ControlPanelPassword" 	value="poilu"/>			<!-- Password to gain entry to the control panel -->
 
   <property name="TelnetEnabled"	 		value="true"/>				<!-- Enable/Disable the telnet -->
   <property name="TelnetPort" 				value="8081"/>				<!-- Port of the telnet server -->
@@ -53,7 +53,7 @@
   <property name="LandClaimOfflineDurabilityModifier" 	value="4"/>		<!-- How much protected claim area block hardness is increased when a player is offline. 0 means infinite (no damage will ever be taken). Default is 32x -->
   <property name="AirDropFrequency"						value="72"/>    <!-- How often airdrop occur in game-hours, 0 == never -->
   <property name="AirDropMarker"						value="false"/>	<!-- Sets if a marker is added to map/compass for air drops. -->
-  <property name="MaxSpawnedZombies"					value="60"/>    <!-- Making this number too large (more than about 80) may cause servers to run at poor framerates which will effect lag and play quality for clients. -->
+  <property name="MaxSpawnedZombies"					value="50"/>    <!-- Making this number too large (more than about 80) may cause servers to run at poor framerates which will effect lag and play quality for clients. -->
 
   <!--
   If your server has a large number of players you can increase this limit to add more wildlife. Animals don't consume as much CPU as zombies.
